@@ -1,6 +1,12 @@
 # react-antd-blog
 This project is a example(demo), designed to help those who use antd to develop a website(or web app), front-end to back-end. 
 
+项目意在倾向展示个人作品，适用于设计师或者程序员；
+
+v1.0版本，基于antd 0.9.x版本上开发的，未使用redux，router等技术
+v2.0版本，依赖antd 1.1.0版本，并使用redux，router技术
+除了保持原意向，同时期望足够简单，方便其他初学者学习、并了解React开发，同时知道如何使用redux等。
+
 
 # react-redux-boilerplate
 
