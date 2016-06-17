@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.heading {
+  vertical-align: middle;
+  color: #222222;
+  margin-top: 40px;
+  line-height: 50px;
+  font-size: 60px;
+  text-align: center;
+  font-family: Fontaine-regular, Microsoft YaHei;
+  vertical-align: middle;
+}
+.caretRight {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 20px;
+  color: #6a6a6a;
+}
+.caretLeft {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #6a6a6a;
+}
+.subheading {
+  text-align: center;
+  font-size: 16px;
+  font-family: Fontaine-regular, Microsoft YaHei;
+  span {
+    color: #fff;
+    background-size: 400% 100%;
+    padding: 0 2px;
+    background-position: -200% 0;
+    background-image: linear-gradient(to right, transparent 50%, rgba(215,43,55,0.8) 50%);
+    transition: background-size .3s linear,color .3s;
+    font-family: Centuma-bold, Microsoft YaHei;
+  }
+}
+.partition {
+  width: 100%;
+  display: table;
+  border: 1px solid #E6E6E6;
+  border-left: none;
+  border-right: none;
+  margin: 10px 0;
+  padding: 10px;
+  b {
+    text-transform: uppercase;
+    color: #222222;
+    font-family: Centuma-regular, Microsoft YaHei;
+    font-size: 14px;
+    line-height: 1.42857;
+  }
+  span {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-family: Centuma-bold, Microsoft YaHei;
+  }
+}
+.summary {
+  font-family: Fontaine-regular, Microsoft YaHei;
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 32px;
+  color: #6a6a6a;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin: 0.67em 0;
+  p {
+    color: #222222;
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+}
+.paragraph {
+  text-align: justify;
+  padding: 0 18px;
+  line-height: 25px;
+  font-family: 'Centuma-regular';
+  margin: 0 0 10px;
+}
+.title {
+  margin-top: 5px;
+  font-size: 55px;
+  line-height: 50px;
+  color: #D72B37;
+  padding: 0 15px;
+  font-family: Fontaine-regular, Microsoft YaHei;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin: 0.67em 0;
+}
+.subtitle {
+  font-family: 'Centuma-regular';
+  line-height: 20px;
+  text-align: justify;
+  p {
+    color: #222222;
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+}
+.picture {
+  margin-bottom: 20px;
+}
+.aboutPicture {
+  background: url('/static/img/about/about.png');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

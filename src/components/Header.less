@@ -1,0 +1,62 @@
+@menu-height: 60px;
+@light-gray: #E9E9E9;
+@dark-gray: #666;
+.as-menu (@padding: 0px) {
+  height: @menu-height;
+  padding-left: @padding;
+  border-bottom: 1px solid @light-gray;
+}
+.logo {
+  .as-menu(0px);
+  cursor: pointer;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.line {
+  color: @light-gray;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 30px;
+}
+.menu {
+  height: @menu-height;
+}
+.item {
+  height: @menu-height;
+  padding-top: 6px;
+  color: @dark-gray;
+  a {
+    font-size: 14px;
+  }
+}
+.side {
+  .as-menu();
+  span {
+    cursor: pointer;
+  }
+  button {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    border: none;
+    margin: 20px auto;
+    height: 88px;
+    img {
+      width: 88px;
+      height: 88px;
+    }
+  }
+  .name {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
